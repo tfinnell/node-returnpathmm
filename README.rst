@@ -1,6 +1,3 @@
-Testing some stuff
-==================
-...on github with javascript.
-
-
-Thinking about turning this into a webserver.
+node.js returnpath cli
+=======================
+pass in the email and password as parameters to this script
