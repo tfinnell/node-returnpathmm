@@ -1,6 +1,10 @@
-var http = require('http');
+var xmlrpc   = require('xmlrpc'),
+    xmlcl    = xmlrpc.createSecureClient('https://api.returnpath.net/mmapi'),
+    email    = process.argv[2],
+    password = process.argv[3];
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello Github!\n');
-}).listen(8080, 'localhost');
+xmlcl.methodCall('seedlist', {
+  email: email, password: password
+}, function (err, val) {
+  console.log(val);
+});
