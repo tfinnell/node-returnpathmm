@@ -1,11 +1,16 @@
 {
   "author": "Tim Finnell",
-  "name": "returnpath",
+  "name": "returnpathmm",
   "description": "node module to interact with returnpaths mailbox monitor api",
   "version": "0.0.1",
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "git@github.com:tfinnell/node-returnpathmm.git"
   },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/returnpath.js",
   "dependencies": {
     "xmlrpc": ">= 0.9.4"
   },
