@@ -6,29 +6,21 @@ var xmlrpc = require('xmlrpc'),
     };
 
 function seedList() {
-  xmlcl.methodCall('RP.API.MM.seedList', [opts], function (err, val) {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log(val);
-    }
-  });
+  rpCall('seedList', opts);
 }
 
 function campaignData(mids) {
   opts.matchingIDs = mids;
-  xmlcl.methodCall('RP.API.MM.campaignData', [opts], function (err, val) {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log(val);
-    }
-  });
+  rpCall('campaignData', opts);
 }
 
 function ispData(cid) {
   opts.campaignID = cid;
-  xmlcl.methodCall('RP.API.MM.ispData', [opts], function (err, val) {
+  rpCall('ispData', opts);
+}
+
+function rpCall(cType, cOpts) {
+  xmlcl.methodCall('RP.API.MM.'+cType, [cOpts], function (err, val) {
     if (err) {
       console.log(err);
     } else {
