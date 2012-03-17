@@ -1,0 +1,15 @@
+{
+  "author": "Tim Finnell",
+  "name": "returnpath",
+  "description": "node module to interact with returnpaths mailbox monitor api",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
