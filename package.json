@@ -6,7 +6,9 @@
   "repository": {
     "url": ""
   },
-  "dependencies": {},
+  "dependencies": {
+    "xmlrpc": ">= 0.9.4"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
