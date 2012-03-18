@@ -1,7 +1,7 @@
 {
   "author": {
     "name": "Tim Finnell",
-    "url": "https://github.com/tfinnell/node-returnpathmm",
+    "url": "https://github.com/tfinnell",
     "email": "tim.finnell@gmail.com"
   },
   "name": "returnpathmm",
@@ -11,7 +11,8 @@
     "mailbox monitor",
     "api"
   ],
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "homepage": "https://github.com/tfinnell/node-returnpathmm",
   "repository": {
     "type": "git",
     "url": "git@github.com:tfinnell/node-returnpathmm.git"
