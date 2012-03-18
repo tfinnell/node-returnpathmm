@@ -1,7 +1,16 @@
 {
-  "author": "Tim Finnell",
+  "author": {
+    "name": "Tim Finnell",
+    "url": "https://github.com/tfinnell/node-returnpathmm",
+    "email": "tim.finnell@gmail.com"
+  },
   "name": "returnpathmm",
-  "description": "node module to interact with returnpaths mailbox monitor api",
+  "description": "A module to interact with ReturnPath's mailbox monitor api",
+  "keywords": [
+    "returnpath",
+    "mailbox monitor",
+    "api"
+  ],
   "version": "0.0.1",
   "repository": {
     "type": "git",
