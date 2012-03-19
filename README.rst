@@ -10,3 +10,9 @@ campaignData
 
 ispData
         requires a campaign ID and callback for arguments. returns the isp stats for the campaign you supply.
+
+mailboxData
+        returns detailed data on seed placement for a campaign/isp.
+
+fromDomainList
+        returns a list of fromDomains for a given account.
